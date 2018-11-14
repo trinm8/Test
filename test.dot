@@ -1,0 +1,32 @@
+digraph bst{a [style = invisible]5[label= 5 , style = circle]
+None5[label= -1 , style = invisible]
+10[label= 10 , style = circle]
+9[label= 9 , style = circle]
+None9[label= -1 , style = invisible]
+None9[label= -1 , style = invisible]
+None10[label= -1 , style = invisible]
+5[label= 5 , style = circle]
+None5[label= -1 , style = invisible]
+12[label= 12 , style = circle]
+9[label= 9 , style = circle]
+None9[label= -1 , style = invisible]
+None9[label= -1 , style = invisible]
+12[label= 12 , style = circle]
+None12[label= -1 , style = invisible]
+None12[label= -1 , style = invisible]
+
+5 -> None5 [style=invis]
+5 -> 10
+10 -> 9
+9 -> None9 [style=invis]
+9 -> None9 [style=invis]
+10 -> None10 [style=invis]
+5 -> None5 [style=invis]
+5 -> 12
+12 -> 9
+9 -> None9 [style=invis]
+9 -> None9 [style=invis]
+12 -> 12
+12 -> None12 [style=invis]
+12 -> None12 [style=invis]
+}
